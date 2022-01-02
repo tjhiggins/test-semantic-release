@@ -1,12 +1,11 @@
 {
   "branches": [
-    "+([0-9])?(.{+([0-9]),x}).x",
-    "stable",
+    "main",
     {
-      "name": "main",
+      "name": "next",
+      "channel": "rc",
       "prerelease": "rc"
-    },
-    "next"
+    }
   ],
   "plugins": [
     "@semantic-release/commit-analyzer",
