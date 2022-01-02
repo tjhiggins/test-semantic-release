@@ -1,8 +1,9 @@
 {
   "branches": [
+    "+([0-9])?(.{+([0-9]),x}).x",
+    "stable",
     {
       "name": "main",
-      "channel": "rc",
       "prerelease": "rc"
     },
     "next"
