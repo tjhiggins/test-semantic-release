@@ -12,7 +12,8 @@
         "name": "main",
         "channel": "rc",
         "prerelease": "rc"
-      }
+      },
+      "next"
     ]
   }
 }
